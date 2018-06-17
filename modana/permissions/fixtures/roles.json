@@ -1,0 +1,66 @@
+[{
+    "model": "permissions.role",
+    "pk": 1,
+    "fields": {
+      "idx": "dozbmnBBPdQmfBkzJgR4WK",
+      "created_on": "2016-07-19T06:07:13Z",
+      "modified_on": "2018-04-19T11:54:01.465Z",
+      "is_obsolete": false,
+      "name": "company_admin",
+      "parent": null,
+      "alias": "",
+      "description": "Admin of the organization",
+      "precedence": 0,
+      "permissions": []
+    }
+  },
+  {
+    "model": "permissions.role",
+    "pk": 2,
+    "fields": {
+      "idx": "ciQ6Av2T5E99xm4c4Z4fMR",
+      "created_on": "2016-07-19T06:13:04Z",
+      "modified_on": "2016-11-23T05:28:47.822Z",
+      "is_obsolete": false,
+      "name": "employee",
+      "parent": null,
+      "alias": "",
+      "description": "Uses Khalti for payment.",
+      "precedence": 0,
+      "permissions": []
+    }
+  },
+  {
+    "model": "permissions.role",
+    "pk": 3,
+    "fields": {
+      "idx": "maTV7CpW7pApSn2voSkAmK",
+      "created_on": "2016-07-19T06:15:42Z",
+      "modified_on": "2018-04-19T11:54:01.798Z",
+      "is_obsolete": false,
+      "name": "Anonymous",
+      "parent": null,
+      "alias": "",
+      "description": "Unauthenticated user.",
+      "precedence": 0,
+      "permissions": []
+    }
+  },
+  {
+    "model": "permissions.role",
+    "pk": 4,
+    "fields": {
+      "idx": "RVNyXAccGDeuFFhDu4eg4i",
+      "created_on": "2016-07-19T06:17:42Z",
+      "modified_on": "2018-04-19T11:54:02.265Z",
+      "is_obsolete": false,
+      "name": "Superuser",
+      "parent": null,
+      "alias": "",
+      "description": "Root access to the system.",
+      "precedence": 0,
+      "permissions": []
+    }
+  }
+
+]
